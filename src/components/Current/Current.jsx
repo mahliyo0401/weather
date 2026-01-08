@@ -18,7 +18,7 @@ const Current = () => {
         id:1,
         img: temp,
         text: t('temperature'),
-        value: `${Math.round(weather.current.temp)}° - ${t('feels like')} 17°`
+        value: `${Math.round(weather.current.temp)}° - ${t('feels_like')} 17°`
       },
       {
         id:2,
@@ -48,6 +48,9 @@ const Current = () => {
             <div className={s.current__left}>
                 <p className={s.current__left_degree}>{Math.round(weather.current.temp)}°</p>
                 <p className={s.current__left_day}>{t('today')}</p>
+
+                <p className={s.current__left_status}>{t(description)}</p>
+
                 <p className={s.current__left_time}>{t('time')}: {time}</p>
                 <p className={s.current__left_city}>{t('city')}: {weather.timezone}</p>
                 <img src={icon} alt="" className={s.current__left_img} />

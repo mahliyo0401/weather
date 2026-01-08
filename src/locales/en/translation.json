@@ -14,5 +14,18 @@
     "ясно": "Clear",
   "пасмурно": "Overcast",
   "небольшой дождь": "Light rain",
-  "облачно с прояснениями": "Partly cloudy"
+  "облачно с прояснениями": "Partly cloudy",
+  "Clear": "Clear",
+  "Overcast": "Overcast",
+  "Light rain": "Light rain",
+  "Partly cloudy": "Partly cloudy",
+  "Cloudy": "Cloudy",
+  "Rain": "Rain",
+  "Snow": "Snow",
+  "Patchy rain nearby": "Patchy rain nearby",
+  "Sunny": "Sunny",
+  "clear sky": "Clear sky",
+  "few clouds": "Few clouds",
+  "overcast clouds": "Overcast",
+  "light rain": "Light rain"
 }
