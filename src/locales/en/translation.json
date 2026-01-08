@@ -1,0 +1,18 @@
+{
+    "weather": "Weather",
+    "selectCity": "Select city",
+    "today": "Today",
+    "time": "Time",
+    "city": "City",
+    "temperature": "Temperature",
+    "feels_like": "feels like",
+    "pressure": "Pressure",
+    "clouds": "Cloudiness",
+    "wind": "Wind",
+    "m_s": "m/s",
+    "tomorrow": "Tomorrow",
+    "ясно": "Clear",
+  "пасмурно": "Overcast",
+  "небольшой дождь": "Light rain",
+  "облачно с прояснениями": "Partly cloudy"
+}
