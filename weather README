@@ -1,0 +1,31 @@
+Weather Forecast App
+A dynamic web application that provides real-time weather data and a 7-day forecast for any city worldwide. Built with a focus on asynchronous programming and customizable user interface.
+
+Live Demo: https://weather-mu-opal.vercel.app/
+
+ Key Features
+Global Search: Fetch current weather conditions and 7-day forecasts for any city around the globe.
+
+Extended Forecast: Provides detailed weather data for the upcoming week, including temperature trends and conditions.
+
+Multilingual Support: Easily switch between languages (English/Russian) to reach a wider audience.
+
+Theme Switching: Includes a Dark/Light mode toggle for improved user comfort and accessibility.
+
+Dynamic Backgrounds: (Optional, если есть) UI elements that change based on current weather conditions.
+
+ Tech Stack
+Language: JavaScript (ES6+)
+
+Frontend: HTML5, CSS3
+
+API: OpenWeatherMap API (or similar) for real-time meteorological data.
+
+Deployment: Vercel
+
+ How it Works
+The app sends an asynchronous request to the weather API using the fetch method.
+
+Data is parsed and dynamically injected into the DOM.
+
+User preferences (language and theme) are managed through local state or localStorage.
